@@ -43,10 +43,10 @@ All models were evaluated using:
 - `README.md`: Project overview and guide.
 - `requirements.txt`: Python package dependencies.
 
-## 📦 Requirements
+## Main packages used:
 
-You can install dependencies using:
-
-```bash
-pip install -r requirements.txt
-
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+- seaborn
