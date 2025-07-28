@@ -67,3 +67,11 @@ scikit-learn==1.2.2
 
 
 pip freeze > requirements.txt
+
+@misc{agyemang2025predictivemaintenance,
+  author       = {Ransford Ohene Agyemang},
+  title        = {Predictive Maintenance using Big Data Analytics in Automotive Manufacturing},
+  year         = {2025},
+  url          = {https://github.com/Ransford-Agyemang/Predictive-maintenance-UR5},
+  note         = {MSc Data Science Dissertation, Coventry University}
+}
