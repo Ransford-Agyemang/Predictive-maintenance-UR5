@@ -1,12 +1,12 @@
-# Predictive Maintenance using Big Data Analytics on UR5 Robotic Arm
+# Predictive Maintenance using Big Data Analytics in Automotive Manufacturing
 
-This repository contains the complete implementation of a predictive maintenance project using machine learning and big data analytics. The study focuses on the NIST PHM 2021 dataset from a UR5 robotic work cell, aiming to detect operational anomalies through sensor data analysis.
+This repository contains the code and assets used in the MSc Data Science dissertation titled "Leveraging Big Data Analytics for Predictive Maintenance and Operational Efficiency in Automotive Manufacturing" A complete implementation of a predictive maintenance project using machine learning and big data analytics. The study focuses on the NIST PHM 2021 dataset from a UR5 robotic work cell, aiming to detect operational anomalies through sensor data analysis.
 
 ## Project Overview
 
-- **Objective**: Leverage big data analytics and machine learning to identify potential failures in an industrial robotic system.
-- **Dataset**: UR5 sensor data (NIST PHM 2021) containing joint positions, velocities, and tool coordinates.
-- **Methods**:
+- Objective: Leverage big data analytics and machine learning to identify potential failures in an industrial robotic system.
+- Dataset: UR5 sensor data (NIST PHM 2021) containing joint positions, velocities, and tool coordinates.
+- Methods:
   - Data cleaning and transformation
   - Feature engineering (rolling statistics, deltas)
   - Synthetic anomaly labeling
@@ -50,3 +50,20 @@ All models were evaluated using:
 - scikit-learn
 - matplotlib
 - seaborn
+
+pip install -r requirements.txt
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+
+
+pandas==1.5.3
+numpy==1.24.3
+matplotlib==3.7.1
+seaborn==0.12.2
+scikit-learn==1.2.2
+
+
+pip freeze > requirements.txt
